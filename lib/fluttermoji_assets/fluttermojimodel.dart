@@ -1,16 +1,16 @@
 import 'package:flutter/foundation.dart';
 
-/// Maps attribute keys to the attribute value list
+// fluttermojiProperties Mapping
 final Map<String, FluttermojiPropertyItem> fluttermojiProperties = {
   "style": FluttermojiPropertyItem(title: "Stil", property: FluttermojiStyle),
   "topType": FluttermojiPropertyItem(title: "Frisur", property: TopType),
   "accessoriesType":
       FluttermojiPropertyItem(title: "Accessoires", property: AccessoriesType),
   "hairColor": FluttermojiPropertyItem(title: "Haarfarbe", property: HairColor),
-  "facialHairType": FluttermojiPropertyItem(
-      title: "Gesichtsbehaarung", property: FacialHairType),
-  "facialHairColor": FluttermojiPropertyItem(
-      title: "Farbe der Gesichtsbehaarung", property: FacialHairColor),
+  "facialHairType":
+      FluttermojiPropertyItem(title: "Bart", property: FacialHairType),
+  "facialHairColor":
+      FluttermojiPropertyItem(title: "Bartfarbe", property: FacialHairColor),
   "clotheType": FluttermojiPropertyItem(title: "Outfit", property: ClotheType),
   "clotheColor":
       FluttermojiPropertyItem(title: "Outfitfarbe", property: ClotheColor),
