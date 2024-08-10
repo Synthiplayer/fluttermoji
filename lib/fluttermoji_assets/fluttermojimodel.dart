@@ -2,24 +2,23 @@ import 'package:flutter/foundation.dart';
 
 /// Maps attribute keys to the attribute value list
 final Map<String, FluttermojiPropertyItem> fluttermojiProperties = {
-  "style": FluttermojiPropertyItem(title: "Style", property: FluttermojiStyle),
-  "topType": FluttermojiPropertyItem(title: "Hair", property: TopType),
+  "style": FluttermojiPropertyItem(title: "Stil", property: FluttermojiStyle),
+  "topType": FluttermojiPropertyItem(title: "Frisur", property: TopType),
   "accessoriesType":
-      FluttermojiPropertyItem(title: "Accessory", property: AccessoriesType),
-  "hairColor":
-      FluttermojiPropertyItem(title: "Hair\nColor", property: HairColor),
-  "facialHairType":
-      FluttermojiPropertyItem(title: "Facial\nHair", property: FacialHairType),
+      FluttermojiPropertyItem(title: "Accessoires", property: AccessoriesType),
+  "hairColor": FluttermojiPropertyItem(title: "Haarfarbe", property: HairColor),
+  "facialHairType": FluttermojiPropertyItem(
+      title: "Gesichtsbehaarung", property: FacialHairType),
   "facialHairColor": FluttermojiPropertyItem(
-      title: "F-Hair\nColor", property: FacialHairColor),
+      title: "Farbe der Gesichtsbehaarung", property: FacialHairColor),
   "clotheType": FluttermojiPropertyItem(title: "Outfit", property: ClotheType),
   "clotheColor":
-      FluttermojiPropertyItem(title: "Outfit\nColor", property: ClotheColor),
-  "eyeType": FluttermojiPropertyItem(title: "Eye", property: EyeType),
+      FluttermojiPropertyItem(title: "Outfitfarbe", property: ClotheColor),
+  "eyeType": FluttermojiPropertyItem(title: "Augen", property: EyeType),
   "eyebrowType":
-      FluttermojiPropertyItem(title: "Eyebrow", property: EyebrowType),
-  "mouthType": FluttermojiPropertyItem(title: "Mouth", property: MouthType),
-  "skinColor": FluttermojiPropertyItem(title: "Skin", property: SkinColor),
+      FluttermojiPropertyItem(title: "Augenbrauen", property: EyebrowType),
+  "mouthType": FluttermojiPropertyItem(title: "Mund", property: MouthType),
+  "skinColor": FluttermojiPropertyItem(title: "Hautfarbe", property: SkinColor),
 };
 
 /// Models the metadata needed for rendering widgets in the UI
